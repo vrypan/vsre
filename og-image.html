@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1200">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body {
+            width: 1200px;
+            height: 630px;
+            overflow: hidden;
+            background: #fff;
+            font-family: 'EB Garamond', Georgia, serif;
+        }
+        .card {
+            width: 1200px;
+            height: 630px;
+            padding: 64px 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-left: 12px solid #c9a227;
+        }
+        .headword {
+            font-size: 7rem;
+            font-weight: 400;
+            color: #1a3a5c;
+            line-height: 1;
+            letter-spacing: -0.01em;
+        }
+        .pronunciation {
+            font-size: 1.6rem;
+            color: #555;
+            font-style: italic;
+            margin-top: 10px;
+        }
+        .pronunciation .region {
+            font-style: normal;
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-right: 6px;
+        }
+        .divider {
+            border: none;
+            border-top: 3px solid #c9a227;
+            margin: 24px 0;
+            width: 100%;
+            opacity: 1;
+        }
+        .definition {
+            font-size: 1.9rem;
+            font-weight: 700;
+            color: #1a3a5c;
+            line-height: 1.45;
+        }
+        .definition .pos {
+            font-weight: 400;
+            color: #555;
+        }
+        .url {
+            margin-top: 28px;
+            font-size: 1.1rem;
+            color: #999;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="headword">VSRE</div>
+        <div class="pronunciation">
+            <span class="region">abbrev.</span>
+            /ˌviː.ɛs.ɑːr.ˈiː/ · an acronym
+        </div>
+        <hr class="divider">
+        <div class="definition">
+            <span class="pos">abbreviation for </span>"very short reply expected"
+        </div>
+        <div class="url">vsre.info</div>
+    </div>
+</body>
+</html>
